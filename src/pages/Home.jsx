@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import { Link } from 'react-router-dom';
 
 const pages = [
-  { name: 'प्रार्थना', path: '/prार्थना' },
+  { name: 'प्रार्थना', path: '/prarthana' },
   { name: 'पद १', path: '/aarti1' },
   { name: 'पद २', path: '/aarti2' },
   { name: 'पद ३', path: '/aarti3' },
