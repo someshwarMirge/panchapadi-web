@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
+
 const Aarti2 = () => {
   return (
     <Layout>
@@ -27,6 +28,8 @@ const Aarti2 = () => {
           अनुभव हा मनाला, <br />
           नमितो तुझे पदाला ॥३॥<br />
         </p>
+
+
       </div>
     </Layout>
   );

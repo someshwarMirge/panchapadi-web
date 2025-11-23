@@ -38,13 +38,13 @@ const Layout = ({ children }) => {
                 {/* Bottom Navigation */}
                 <div className="flex justify-between mt-8 pt-6 border-t border-orange-200 dark:border-gray-700">
                     {prevItem ? (
-                        <Link to={prevItem.path} className="flex items-center text-orange-700 hover:text-orange-900 dark:text-orange-400 dark:hover:text-orange-300">
+                        <Link to={prevItem.path} className="flex items-center px-4 py-2 bg-orange-100 text-orange-800 rounded-lg hover:bg-orange-200 dark:bg-gray-700 dark:text-orange-300 dark:hover:bg-gray-600 transition-colors">
                             <ChevronLeft className="mr-1" /> {prevItem.name}
                         </Link>
                     ) : <div></div>}
 
                     {nextItem ? (
-                        <Link to={nextItem.path} className="flex items-center text-orange-700 hover:text-orange-900 dark:text-orange-400 dark:hover:text-orange-300">
+                        <Link to={nextItem.path} className="flex items-center px-4 py-2 bg-orange-100 text-orange-800 rounded-lg hover:bg-orange-200 dark:bg-gray-700 dark:text-orange-300 dark:hover:bg-gray-600 transition-colors">
                             {nextItem.name} <ChevronRight className="ml-1" />
                         </Link>
                     ) : <div></div>}

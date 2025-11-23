@@ -30,7 +30,6 @@ const Navbar = () => {
         { name: 'पद ११', path: '/aarti11' },
         { name: 'पद १२', path: '/aarti12' },
         { name: 'पद १३', path: '/aarti13' },
-        { name: 'पद १४', path: '/aarti14' },
     ];
 
     return (

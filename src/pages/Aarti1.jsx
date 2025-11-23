@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import { Link } from 'react-router-dom';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Aarti1 = () => {
   return (
@@ -52,6 +54,8 @@ const Aarti1 = () => {
         <p className="text-gray-600 dark:text-gray-300 font-marathi">
           ये त्वरे करुनी आता । मल्हारी महाळसा कांता ॥
         </p>
+
+      
       </div>
     </Layout>
   );

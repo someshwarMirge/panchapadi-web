@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
+
 const Aarti3 = () => {
   return (
     <Layout>
@@ -9,6 +10,19 @@ const Aarti3 = () => {
         <h2 className="text-2xl font-bold text-orange-700 dark:text-orange-300 mb-6 text-center font-marathi">(३)</h2>
 
         <p className="text-gray-600 dark:text-gray-300 mb-4 font-marathi">
+          जय देव जय देव जय शिव मल्हारी <br />
+          वारी दुर्जन असुरा, भव दुस्तर तारी ॥धृ॥<br />
+          <br />
+          सुरवर मुनिवर भजती, तव चरणा पाशी <br />
+          उद्धरसी त्या, जे का, शरण आले तुजसी <br />
+          रक्षण करिसी त्यांचे, जे का, तव दासी <br />
+          म्हणुनी शरण आलो, तव चरणा पाशी ॥१॥<br />
+          <br />
+          मणि मल्ल दैत्य दोघे, अति उन्मत्त झाले <br />
+          त्रास देती देवा, बहु माजले <br />
+          त्यांना वधण्या साठी, मार्तंड प्रगटले <br />
+          मारुती आत्मज चरणी, लीन झाले ॥२॥<br />
+          <br />
           किती पहासी अंत आता, <br />
           मल्हारी तु आमुचा ॥धृ.॥<br />
           <br />
@@ -34,6 +48,8 @@ const Aarti3 = () => {
           किती पहासी अंत आता <br />
           मल्हारी तु आमुचा.<br />
         </p>
+
+
       </div>
     </Layout>
   );

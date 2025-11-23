@@ -18,7 +18,6 @@ import Aarti10 from './pages/Aarti10';
 import Aarti11 from './pages/Aarti11';
 import Aarti12 from './pages/Aarti12';
 import Aarti13 from './pages/Aarti13';
-import Aarti14 from './pages/Aarti14';
 
 function App() {
   return (
@@ -41,7 +40,6 @@ function App() {
           <Route path="/aarti11" element={<ProtectedRoute><Aarti11 /></ProtectedRoute>} />
           <Route path="/aarti12" element={<ProtectedRoute><Aarti12 /></ProtectedRoute>} />
           <Route path="/aarti13" element={<ProtectedRoute><Aarti13 /></ProtectedRoute>} />
-          <Route path="/aarti14" element={<ProtectedRoute><Aarti14 /></ProtectedRoute>} />
         </Routes>
       </Router>
     </ThemeProvider>

@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import { Link } from 'react-router-dom';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Prarthana = () => {
     return (
@@ -16,6 +18,8 @@ const Prarthana = () => {
                         अपराध पोटी घाली माझे ॥
                     </p>
                 </div>
+
+         
             </div>
         </Layout>
     );
