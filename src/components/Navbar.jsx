@@ -64,7 +64,8 @@ const Navbar = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="-mr-2 flex md:hidden">
+                    <div className="-mr-2 flex md:hidden items-center gap-2">
+                        <ThemeToggle />
                         <button onClick={toggleMenu} className="inline-flex items-center justify-center p-2 rounded-md hover:bg-orange-700 focus:outline-none transition-colors">
                             {isOpen ? <X size={24} /> : <Menu size={24} />}
                         </button>
