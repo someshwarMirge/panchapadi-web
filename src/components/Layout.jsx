@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
         { name: 'पद ११', path: '/aarti11' },
         { name: 'पद १२', path: '/aarti12' },
         { name: 'पद १३', path: '/aarti13' },
-        { name: 'पद १४', path: '/aarti14' },
+
     ];
 
     const currentIndex = menuItems.findIndex(item => item.path === location.pathname);
