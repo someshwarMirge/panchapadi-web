@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { verifyPassword } from '../utils/auth';
 import { Lock } from 'lucide-react';
 
@@ -22,8 +22,8 @@ const Login = () => {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-orange-50 py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-md w-full space-y-8">
+        <div className="min-h-screen flex flex-col items-center justify-center bg-orange-50 py-12 px-4 sm:px-6 lg:px-8">
+            <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-2xl shadow-lg border border-orange-100">
                 <div>
                     <div className="mx-auto h-12 w-12 text-orange-600 flex items-center justify-center bg-orange-100 rounded-full">
                         <Lock size={24} />
@@ -35,7 +35,7 @@ const Login = () => {
                 <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
                     <div className="rounded-md shadow-sm -space-y-px">
                         <div>
-                            <label htmlFor="password" class="sr-only">Password</label>
+                            <label htmlFor="password" className="sr-only">Password</label>
                             <input
                                 id="password"
                                 name="password"
@@ -64,6 +64,12 @@ const Login = () => {
                         </button>
                     </div>
                 </form>
+
+                <div className="text-center pt-4 border-t border-gray-100">
+                    <Link to="/privacy" className="text-sm text-orange-600 hover:underline">
+                        Privacy Policy (गोपनीयता धोरण)
+                    </Link>
+                </div>
             </div>
         </div>
     );

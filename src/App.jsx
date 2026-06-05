@@ -18,6 +18,7 @@ import Aarti10 from './pages/Aarti10';
 import Aarti11 from './pages/Aarti11';
 import Aarti12 from './pages/Aarti12';
 import Aarti13 from './pages/Aarti13';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />
           <Route path="/prarthana" element={<ProtectedRoute><Prarthana /></ProtectedRoute>} />
           <Route path="/aarti1" element={<ProtectedRoute><Aarti1 /></ProtectedRoute>} />

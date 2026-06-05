@@ -49,6 +49,16 @@ const Layout = ({ children }) => {
                         </Link>
                     ) : <div></div>}
                 </div>
+
+                {/* Footer */}
+                <footer className="mt-12 pt-6 border-t border-orange-200 dark:border-gray-700 text-center text-sm text-gray-500 dark:text-gray-400 font-sans">
+                    <p>© {new Date().getFullYear()} पंचपदी. All rights reserved.</p>
+                    <p className="mt-2">
+                        <Link to="/privacy" className="text-orange-600 dark:text-orange-400 hover:underline">
+                            Privacy Policy (गोपनीयता धोरण)
+                        </Link>
+                    </p>
+                </footer>
             </main>
         </div>
     );
